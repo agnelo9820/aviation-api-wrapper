@@ -23,3 +23,16 @@ logging:
   level:
     root: INFO
     com.example.aviation: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,metrics,prometheus
+  endpoint:
+    health:
+      show-details: always
+  metrics:
+    enable:
+      all: true
+
