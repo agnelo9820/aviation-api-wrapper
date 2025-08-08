@@ -1,6 +1,6 @@
 # Aviation API Wrapper
 
-
+This is a sample Java + Spring Boot microservice that wraps an upstream aviation data API (https://api.aviationapi.com) to fetch airport details by ICAO code.
 
 ## Features
 - `GET /api/v1/airports/{icao}` - lookup airport by ICAO (4-letter code)
