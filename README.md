@@ -1,4 +1,4 @@
-# Aviation API Wrapper - Backend Engineer Assignment
+# Aviation API Wrapper
 
 
 
@@ -28,4 +28,9 @@ Run:
 ```bash
 mvn test
 ```
+
+## Notes / Assumptions
+- The project focuses on structure, resilience, and clear layering.
+- The client expects the aviationapi JSON under `/v1/airports?apt={icao}`. Adapt the client if upstream differs.
+- AI tools were used to help scaffold example code and README; all code should be reviewed before use.
 
